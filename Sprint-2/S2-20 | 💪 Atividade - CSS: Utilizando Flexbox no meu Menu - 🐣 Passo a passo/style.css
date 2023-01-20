@@ -1,0 +1,38 @@
+body {
+    @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;700&display=swap');
+    font-family: Inter Sans Serif;
+}
+.box-pai {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    width: 100%;
+    margin: 10px;
+    padding: 25px;
+    padding-left: 45px;
+    border: 2px solid black;
+    justify-content: space-between
+}
+h1 {
+    color: #4C6EF5;
+    font-size: 24px;
+}
+ul {
+    list-style: none;
+    display: flex;
+
+}
+
+.box-logo {
+    display: flex;
+    justify-content: right;
+}
+
+a {
+    color: #343A40;
+}
+
+.itens {
+    padding: 20px;
+}
+

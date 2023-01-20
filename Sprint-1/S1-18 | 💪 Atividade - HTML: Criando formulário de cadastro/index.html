@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário Kenzie</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <form>
+        <div>
+            <label for="nome">Nome</label>
+        </div>
+        <div>
+            <input type="text" id="nome" name="nome" placeholder="Digite seu nome aqui..." required="true">
+        </div>
+        <div>
+            <label for="email">Email</label>
+        </div>
+        <div>
+            <input type="email" id="email" name="email" placeholder="Digite seu email aqui..." required="true">
+        </div>
+        <div>
+            <label for="descricao">Descrição</label>
+        </div>
+        <div>
+            <textarea 
+                name="descricao" 
+                id="descricao" 
+                cols="20" 
+                rows="5"
+                placeholder="Fale mais sobre você aqui..."
+                maxlength="500">
+            </textarea>
+        </div>
+        <div>
+            <label for="modulo">Módulo</label>
+        </div>
+        <div>
+            <select name="modulo" id="modulo">
+                <option value="">Escolher módulo</option>
+                <option value="modulo1">Módulo 1</option>
+                <option value="modulo2">Módulo 2</option>
+                <option value="modulo3">Módulo 3</option>
+            </select>
+        </div>
+        <div>     
+            <label for="senha">Senha</label>
+        </div>
+        <div>
+            <input type="password" id="senha" name="senha" placeholder="Digite sua senha aqui..." required="true">
+        </div>
+        <div>
+            <label for="confsenha">Confirmar senha</label>
+        </div>
+        <div>
+            <input type="password" id="confsenha" name="confsenha" placeholder="Digite sua senha novamente aqui..." required="true">
+        </div>
+        <p>Deseja receber novidades em seu e-mail?</p>
+        <div>    
+            <label for="sim">Sim</label>
+            <input type="radio" name="formadeContato" id="sim" value="sim" required="true">
+
+            <label for="nao">Não</label>
+            <input type="radio" name="formadeContato" id="nao" value="nao" required="true">
+        </div>
+        <div>
+            <button button type="submit" style="background-color: black; color: white;">Cadastrar</button>
+        </div>
+    </form>    
+</body>
+</html>

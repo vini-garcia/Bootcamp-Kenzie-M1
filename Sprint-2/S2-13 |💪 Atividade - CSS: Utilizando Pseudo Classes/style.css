@@ -1,0 +1,24 @@
+main {
+    border: 3px solid lightgray;
+    border-radius: 5%;
+    display: inline-block;
+    padding: 30px;
+}
+
+h1 {
+    text-align: center;
+}
+
+label {
+    display: block;
+}
+
+button {
+    text-align: center;
+    display: flex;
+    align-items: stretch;
+    color: white;
+    background-color: #1971C2;
+    
+
+}
