@@ -1,0 +1,25 @@
+ul{
+    list-style: none;
+    font-size: 0;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+  }
+
+ul li{
+    display: inline-block;
+    margin: 15px;
+    
+  }
+
+ul li a{
+    color: #FFFFFF;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    background-color:#5916FF;
+    padding: 10px;
+    border-bottom: 4px solid #CCCCCC;
+        
+  }

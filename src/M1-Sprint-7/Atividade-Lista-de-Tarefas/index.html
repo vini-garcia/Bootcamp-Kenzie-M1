@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Minhas tarefas</title>
+    <link rel="stylesheet" href="./style.css">
+    <script src="./script.js" defer></script>
+</head>
+<body>
+    <nav>
+        <div class="div_h1_nav">
+            <h1 class="h1_nav">MY TASK'S</h1>
+        </div>
+        <div class="main_div_search_nav">
+            <span class="div_search_nav">
+                <input class="input_search_nav" type='search' placeholder="Pesquisar tarefa">
+                <img class="img_search_nav" src="./img/lupa.svg" alt="lupa">
+            </span>
+        </div>
+    </nav>
+    <main>
+        <section class="first_section">
+            <div class="div_h3_inserir">
+                <h3 class="h3_inserir">Inserir tarefa</h3>
+            </div>
+            <form>
+                <div class="div_main_inserir">
+                    <div class="div_input_titulo">
+                        <input class="input_titulo" id="input_titulo" name="input_titulo" type="text" placeholder="Digite o título da tarefa">
+                    </div>
+                    <div class="div_label_list">
+                        <label class="label_list" for="tarefas"></label>
+                        <select class="select_list" name="tarefas" id="tarefas">
+                            <option class="option_list" value="">Selecionar tipo</option>
+                            <option class="option_list" value="urgente">Urgente</option>
+                            <option class="option_list" value="prioritario">Prioritário</option>
+                            <option class="option_list" value="normal">Normal</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="div_button">
+                    <button type="submit" class="button_adicionar" value="tarefas">Adicionar tarefa na lista</button>
+                </div>
+            </form>
+        </section>
+        <section class="second_section">
+            <div class="div_tarefas">
+                <h3 class="h3_tarefas">Tarefas</h3>
+            </div>
+            <ul class="ul_tarefas">
+                <!-- <li class="li_tarefas">Tarefa 1 <button class="button_li"><img class="img_li" src="./img/lixeira.svg" alt="Lixeira"></button></li>
+                <li class="li_tarefas">Tarefa 2<button class="button_li"><img class="img_li" src="./img/lixeira.svg" alt="Lixeira"></button></li>
+                <li class="li_tarefas">Tarefa 3<button class="button_li"><img class="img_li" src="./img/lixeira.svg" alt="Lixeira"></button></li>
+                <li class="li_tarefas">Tarefa 4<button class="button_li"><img class="img_li" src="./img/lixeira.svg" alt="Lixeira"></button></li> -->
+            </ul>
+        </section>
+    </main>
+</body>
+</html>

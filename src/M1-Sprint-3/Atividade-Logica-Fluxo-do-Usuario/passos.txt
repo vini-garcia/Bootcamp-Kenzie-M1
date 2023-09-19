@@ -1,0 +1,17 @@
+Acessar página inicial do website
+Realizar cadastro
+Acessar aba de celulares
+Procurar produto
+* O usuário só poderá comprar se encontrar produtos; se não encontrar, a pessoa sairá do site" *
+Clicar no produto
+* O cliente continuará procurando por um produto durante no máximo 1 minuto; caso não encontre, sairá do site” *
+Acessar página com detalhes
+Clicar no botão para inserir no carrinho de compras
+Clicar na aba "Carrinho de compras"
+Clicar no botão "Finalizar compras"
+Selecionar o método de pagamento (neste exemplo, por cartão de crédito)
+* O usuário só poderá pagar com cartão de crédito se essa forma estiver disponível; se não estiver, a pessoa sairá do site"*
+Inserir os dados do cartão de crédito
+Cadastrar o cartão no site
+Clicar no botão para concluir a compra
+Checar o email para validar se a compra foi realizada

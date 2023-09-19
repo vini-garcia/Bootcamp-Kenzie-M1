@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Projeto Front End</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Inter&family=Quicksand:wght@300&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="./css/style.css">
+        <script src="./js/database.js" defer></script>
+        <script src="./js/index.js" defer></script>
+    </head>
+    <body>
+        <nav>
+            <div class="main_div_nav">
+                <h1 class="h1_titulo">Virtual Vanity</h1>
+            </div>
+            <div class="div_ancoras_nav">
+                <a class="a_nav_todos" id="a_todos" href="#">Todos</a>
+                <a class="a_nav" id="a_acessorios" href="#">Acessórios</a>
+                <a class="a_nav" id="a_calcados" href="#">Calçados</a>
+                <a class="a_nav" id="a_camisetas" href="#">Camisetas</a>
+            </div>
+        </nav>
+        <main>
+            <section class="section_first">
+                <ul class="ul_section">
+                   <!--  <li class="li_section">
+                        <a class="a_li_section" href=""><img class="img_li_section" src="./img/camiseta_branca.svg" alt=""></a>
+                        <p class="p_li_section_tipo">Tipo de produto</p>
+                        <a class="a_li_section" href=""><h3 class="h3_li_section">Nome do produto</h3></a>
+                        <p class="p_li_section_desc">Descrição do produto</p>
+                        <p class="p_li_section">Valor do produto</p>
+                        <button class="btn_li_section">Adicionar ao carrinho</button>
+                    </li> -->
+                </ul>
+            </section>
+            <aside>
+                <div class="div_main_aside">
+                    <div class="div_pesq_aside">
+                        <input id="searchbar" name="search" onkeyup="search_item()" class="input_pesq_aside" type="text" placeholder="Digite aqui sua pesquisa">
+                        <button class="btn_pesq_aside">Pesquisar</button>
+                    </div>
+                    <div class="div_car">
+                        <button class="btn_car">Carrinho de compras</button>
+                        <div class="div_list_aside">
+                            <ul class="ul_aside">
+                                <div class="car_vazio"><p>Carrinho vazio</p><span>Adicione itens</span></div>
+
+                                <!-- <li class="li_aside">
+                                    <img class="img_li_aside" src="./img/camiseta_branca.svg" alt="">
+                                    <div class="div_prod_aside">
+                                        <h4 class="h4_prod_aside">Nome do produto</h4>
+                                        <p class="p_prod_aside">Valor do produto</p>
+                                        <button class="btn_prod_aside">Remover produto</button>
+                                    </div>
+                                </li> -->
+                            </ul>
+                        </div>
+                        <div class="main_div_total_aside">
+                            <div class="div_quant_aside">
+                                <p class="p_quant_aside">Quantidade</p><p class="p_quant_aside_count">0</p>
+                            </div>
+                            <div class="div_total_aside">
+                                <p class="p_total_aside">Total:</p><p class="p_total_aside_valor">R$ 0.00</p>
+                            </div>
+                            <div class="div_esvaziar">
+                                <button class="btn_esvaziar">Limpar carrinho</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </aside>
+        </main>
+        <footer>
+            <div class="div_footer_0">
+                <div class="div_footer_1">
+                    <h4 class="h4_footer">Assine nossa newsletter para 15% off na sua primeira compra</h4>
+                    <p class="p_footer">Seja notificado de promoções, eventos e novos produtos</p>
+                    <form>
+                        <input class="input_footer" required type="email" placeholder="Digite seu endereço de email">
+                        <button class="btn_footer">SIGN UP</button>
+                    </form>
+                </div>
+                <div class="div_footer_2">
+                    <h4 class="h4_footer">Detalhes</h4>
+                    <ul class="ul_footer">
+                        <li class="li_footer"><a class="a_footer_1" href="#">Cupons de desconto</a></li>
+                        <li class="li_footer"><a class="a_footer_1" href="#">Localização</a></li>
+                        <li class="li_footer"><a class="a_footer_1" href="#">Sobre nós</a></li>
+                        <li class="li_footer"><a class="a_footer_1" href="#">Termos de provacidade</a></li>
+                        <li class="li_footer"><a class="a_footer_1" href="#">Entre em contato</a></li>
+                    </ul>
+                </div>
+                <div class="div_footer_3">
+                    <h4 class="h4_footer">Celebre seu próprio estilo</h4>
+                    <p class="p_footer">Discretos e atemporais, nossos produtos artesanais permitem que seu estilo brilhe. Veja como em nossos canais sociais</p>
+                    <div class="div_footer_4">
+                        <a href="" class="a_footer_2" target="_blank"><img class="img_footer_1" src="./img/LogoTwitter.svg" alt="Logo Twitter"></a>
+                        <a href="" class="a_footer_2" target="_blank"><img class="img_footer_1" src="./img/LogoFacebook.svg" alt="Logo Facebook"></a>
+                        <a href="" class="a_footer_2" target="_blank"><img class="img_footer_1" src="./img/LogoYoutube.svg" alt="Logo Youtube"></a>
+                        <a href="" class="a_footer_2" target="_blank"><img class="img_footer_1" src="./img/LogoPinterest.png" alt="Logo Pinterest"></a>
+                        <a href="" class="a_footer_2" target="_blank"><img class="img_footer_1" src="./img/LogoInstagram.png" alt="Logo Instagram"></a>
+                    </div>
+                </div>
+            </div>
+            <div class="div_footer_5">
+               <p class="p_footer">© 2023 Virtual Vanity. Ecommerce Powered by Vinicius Garcia</p>
+               <div class="div_footer_6">
+                    <img class="img_footer_2" src="./img/LogoAmex.svg" alt="Logo Amex">
+                    <img class="img_footer_2" src="./img/LogoApplePay.svg" alt="Logo Apple pay">
+                    <img class="img_footer_2" src="./img/LogoDiners.svg" alt="Logo Diners Club">
+                    <img class="img_footer_2" src="./img/LogoMastercard.svg" alt="Logo Mastercard">
+                    <img class="img_footer_2" src="./img/LogoPayPal.svg" alt="Logo PayPal">
+                    <img class="img_footer_2" src="./img/LogoVisa.svg" alt="Logo Visa">
+               </div> 
+            </div>
+        </footer>
+    </body>
+</html>
